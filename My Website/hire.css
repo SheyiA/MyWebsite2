@@ -1,0 +1,81 @@
+html, body { 
+    margin: 0;
+    background-image: url('contact.jpg');
+    max-height: 100%;
+    background-repeat: initial;
+    background-size: cover;
+}
+/* navigation bar */
+.navigation {
+    margin: 0;
+    max-width: 100%;
+}
+
+
+
+li { 
+    display: inline;
+    margin-right: 20px;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+ul { 
+    display: flex; 
+    margin: 0;
+    justify-content: center;
+    background-color: rgb(34, 33, 33);
+    box-shadow: 5px 10px #888888;
+}
+
+a { 
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: White;
+    font-size: 25px;
+    margin: 0;
+}
+
+a:hover { 
+    box-shadow: 5px 7px grey;
+}
+
+.ContactH1 {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 200%;
+}
+
+.container {
+    justify-content: center;
+    background-color: rgb(77, 77, 241);
+    max-width: 40%;
+    padding-bottom: 3%;
+    margin: auto;
+    border-radius: 50px;
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.txtArealbl {
+    text-align: center;
+}
+
+button{
+   border-radius: 50px;
+   border: none;
+   display: flex;
+   margin: auto;
+   padding: 2%;
+}
+
+
+
+
+

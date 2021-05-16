@@ -1,0 +1,120 @@
+html, body { 
+    margin: 0;
+    background-color: white;
+    /* width: auto; */
+
+}
+/* navigation bar */
+.navigation {
+    margin: 0;
+    max-width: 100%;
+}
+li { 
+    display: inline;
+    margin-right: 20px;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+ul { 
+    display: flex; 
+    margin: 0;
+    justify-content: center;
+    background-color: rgb(34, 33, 33);
+    box-shadow: 5px 10px #888888;
+}
+a { 
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: White;
+    font-size: 25px;
+    margin: 0;
+}
+a:hover { 
+    box-shadow: 5px 7px grey;
+}
+
+
+/* picture of me  */
+.pictureOfMe img {
+    height: 500px;
+    float: left;
+    width: 100%;
+    margin-left: 6%;
+}
+
+.information {
+    background-color: yellow;
+    width: 100%;
+    margin-top:5%;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 6%;
+}
+
+.information h1 {
+    margin-top: 0;
+}
+
+.Container { 
+    display: flex;
+}
+
+.largeContainer { 
+    float: right; 
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+    height: 680px;
+    background-color: yellow;
+    min-width: 50%;
+    box-shadow: 5px 10px;
+    border-radius: 25px;
+}
+
+.pictureOfMe { 
+    float:left;
+    margin-top: 5%;  
+    margin-left: 5%;
+    width: 80%;
+}
+
+.largeContainer h1 { 
+    font-family: Comic Sans MS, Comic Sans, cursive; 
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.largeContainer h2 {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 40px;
+    margin-top: 0;
+    margin-left: 7%; 
+    margin-bottom: 0;
+}
+
+.largeContainer p {
+    background-color: red;
+    max-width: 900px;
+    margin-left: 5%;
+    margin-bottom: 0;
+    margin-right: 10%;
+    margin-left: 7%;
+}
+
+.largeContainer h3 {
+    margin-left: 7%;
+    margin-top: 5;
+    margin-bottom: 0;
+}
+
+.logo img { 
+    width: 25%;
+    margin-left: 6%;
+}
+
+
+
+

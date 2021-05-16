@@ -1,0 +1,118 @@
+html, body { 
+    margin: 0;
+    background-color: rgb(33, 100, 109);
+
+}
+/* navigation bar */
+.navigation {
+    margin: 0;
+    max-width: 100%;
+}
+li { 
+    display: inline;
+    margin-right: 20px;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+ul { 
+    display: flex; 
+    margin: 0;
+    justify-content: center;
+    background-color: rgb(34, 33, 33);
+    box-shadow: 5px 10px #888888;
+}
+a { 
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: White;
+    font-size: 25px;
+    margin: 0;
+}
+a:hover { 
+    box-shadow: 5px 7px grey;
+}
+/* first row  */
+
+.firstRow {
+    display: flex;
+    background-color: white;
+}
+.htmlImage img { 
+    float: left; 
+    height: 400px;
+    width : 400px;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+/* to the right of the image  */
+
+.imageDesc { 
+    float: right; 
+    width: 900px;
+    height: 200px;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+/* second row  */
+.secondRow {
+    display: flex;
+    background-color: red;
+    min-height: 200px;
+}
+.cssImage img { 
+    /* float: right;  */
+    height: 400px;
+    width : 300px;
+    margin-left: auto;
+}
+/* css description */
+.cssDesc { 
+    float: left;
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 5%;
+}
+/* javascript version now  */
+/* css description */
+.javaImage img { 
+    float: left; 
+    height: 400px;
+    width : 700px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+/* to the right of the image  */
+.javaDesc { 
+    float: right; 
+    width: 900px;
+    height: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.cImage img { 
+    float: right; 
+    height: 400px; 
+    width: 350px; 
+    margin-top: 200px;
+    margin-right: 200px;
+}
+/* css description */
+.cDesc { 
+    float: left;
+    margin-top: 50px;
+    width: 900px;
+    margin-left: 200px;
+}
+
+.thirdRow {
+    display: flex;
+    background-color: white;
+
+}
+
+.fourthRow{
+    background-color: yellow;
+    display: flex;
+}
