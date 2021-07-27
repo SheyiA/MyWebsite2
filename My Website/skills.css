@@ -37,6 +37,7 @@ a:hover {
 .firstRow {
     display: flex;
     background-color: white;
+    
 }
 .htmlImage img { 
     float: left; 
@@ -62,10 +63,11 @@ a:hover {
     min-height: 200px;
 }
 .cssImage img { 
-    /* float: right;  */
+    float: right; 
     height: 400px;
     width : 300px;
     margin-left: auto;
+    margin-bottom: 10%;
 }
 /* css description */
 .cssDesc { 
@@ -73,6 +75,7 @@ a:hover {
     margin-top: 50px;
     width: 50%;
     margin-left: 5%;
+    height: 400px;
 }
 /* javascript version now  */
 /* css description */
